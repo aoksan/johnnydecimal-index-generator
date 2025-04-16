@@ -7,6 +7,8 @@ Code for the [Johnny Decimal Index Generator](https://johnny-decimal-generator.n
 - [Web Share API](https://developer.mozilla.org/en-US/docs/Web/API/Navigator/share) — Share easily from mobile devices
 - PWA + [Workbox](https://developers.google.com/web/tools/workbox) — Install it and/or use it offline
 
+- This fork changes area start from 1 to 0 (00-09)
+
 ## Develop
 
 ```bash
