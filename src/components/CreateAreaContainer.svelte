@@ -3,7 +3,7 @@
   import { areas } from "../stores";
   import { MAX_AREA_COUNT } from "../data/constants";
 
-  const MAXED_TEXT = "You already have 9 areas. Click an area name to show delete option.";
+  const MAXED_TEXT = "You already have 10 areas. Click an area name to show delete option.";
   const BLURB_TEXT_1 = "Create and reorder your ";
   const BLURB_TEXT_2 = " items";
   const BLURB_TEXT_3 = "and generate a shareable, saveable index";

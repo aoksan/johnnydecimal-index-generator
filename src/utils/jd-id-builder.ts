@@ -20,6 +20,7 @@ const isValid = (order: number, type: "AREA" | "CATEGORY" | "THING") => {
  */
 export const createAreaJdId = (order: number) => {
   if (!isValid(order, "AREA")) return null;
+  order = order - 1;
   return `${order}0-${order}9`;
 };
 
@@ -31,6 +32,7 @@ export const createAreaJdId = (order: number) => {
  */
 export const createCategoryJdId = (order: number, areaOrder: number) => {
   if (!isValid(order, "CATEGORY") || !isValid(areaOrder, "AREA")) return null;
+  areaOrder = areaOrder - 1;
   return `${areaOrder}${order}`;
 };
 
