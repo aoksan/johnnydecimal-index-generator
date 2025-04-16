@@ -41,9 +41,9 @@ const myColors = {
   /** Used as the text background colour in main CTA button */
   "ejd-textOnPrimary": BODY_TEXT,
   /** For use as a surface color on J.D id label */
-  "ejd-surfaceHighlight": colors.lightBlue[50],
+  "ejd-surfaceHighlight": colors.sky[50],
   /** For use as a border color on J.D id label */
-  "ejd-borderHighlight": colors.lightBlue[500],
+  "ejd-borderHighlight": colors.skyw[500],
   /** For use as a text color on J.D id label */
   "ejd-textOnHighlight": BODY_TEXT,
   /** For use as a surface color on critical components */
